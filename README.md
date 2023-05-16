@@ -1,0 +1,1 @@
+- Create a Project: npm create vite@latest name-of-your-project -- --template react
