@@ -1,25 +1,17 @@
 - Create a Project: npm create vite@latest name-of-your-project -- --template react
 
-## Example Code
+# React Project Installation
 
-You can include code snippets in your `README.md` file using code blocks. Here's an example:
+By using the following comment anyone can create a simple react project from this `README.md` file using code blocks.
 
-```python
-def greeting(name):
-    print("Hello, " + name + "!")
+Create react app:
 
-greeting("World")
+```shell
+npm create vite@latest name-of-your-project -- --template react
 ```
 
-The above code will output `Hello, World!` when executed.
+Install react router dom:
 
-````
-
-Make sure to replace the code within the code block with your actual code. You can specify the programming language after the opening triple backticks (\```), which will enable syntax highlighting for that language in most Markdown viewers.
-
-Once you've added the code block to your `README.md` file, it will be displayed as a formatted code snippet when viewed on platforms like GitHub or other Markdown renderers.
-
-Remember to remove the leading backtick (\`) from the closing triple backticks to end the code block properly.
-
-Hope this helps!
-````
+```shell
+npm install react-router-dom localforage match-sorter sort-by
+```
