@@ -36,28 +36,15 @@ Then add daisyUI to your `tailwind.config.js` files:
 plugins: [require("daisyui")],
 ```
 ## Firebase Deployment 🔥 
-- New User:
-To deploy your project to Firebase, you can follow these steps:
-1. Install the Firebase CLI globally by running the following command:
+1. Install the Firebase:
 
 ```shell
-npm install -g firebase-tools
+npm install  firebase
 ```
-2. Log in to your Firebase account using the Firebase CLI:
-```shell
-firebase login
-```
-3. Initialize your project by running the following command in the root directory of your project:
-```shell
-firebase init
-```
-4. Deploy your project to Firebase by running the following command:
+2. Deploy your project to Firebase by running the following command:
 ```shell
 firebase deploy
 ```
-
-- Alrady setup firebase on this pc
-
 ## Vercel Deployment
 ### New user
 
@@ -89,9 +76,6 @@ firebase deploy
      vercel
      ```
  ### Existing User
- ## Vercel Deployment
-
-To deploy your project to Vercel, you can follow these steps:
 
 1. Build your project:
      ```shell
