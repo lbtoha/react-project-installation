@@ -41,7 +41,12 @@ plugins: [require("daisyui")],
 ```shell
 npm install  firebase
 ```
-2. Deploy your project to Firebase by running the following command:
+2. Initialize a Firebase project in your director:
+```shell
+firebase init
+```
+
+3. Deploy your project to Firebase by running the following command:
 ```shell
 firebase deploy
 ```
