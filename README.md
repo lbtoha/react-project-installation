@@ -51,9 +51,60 @@ firebase login
 ```shell
 firebase init
 ```
+4. Deploy your project to Firebase by running the following command:
+```shell
+firebase deploy
+```
 
 - Alrady setup firebase on this pc
 
+## Vercel Deployment
+### New user
+
+1. Create a Vercel account:
+   - Go to the [Vercel website](https://vercel.com) and sign up for an account.
+   - Follow the on-screen instructions to create your account.
+
+2. Install the Vercel CLI:
+   - Open your terminal or command prompt.
+   - Run the following command to install the Vercel CLI globally using npm:
+     ```shell
+     npm install -g vercel
+     ```
+
+3. Build your project:
+   
+     ```shell
+     npm run build
+     ```
+
+4. Log in to Vercel:
+   - In your terminal, run the following command to log in to your Vercel account:
+     ```shell
+     vercel login
+     ```
+
+5. Deploy your project:
+     ```shell
+     vercel
+     ```
+ ### Existing User
+ ## Vercel Deployment
+
+To deploy your project to Vercel, you can follow these steps:
+
+1. Build your project:
+     ```shell
+     npm run build
+     ```
+
+2. Deploy your project:
+   - Navigate to the root directory of your project using the terminal.
+   - Run the following command to deploy your project to Vercel:
+     ```shell
+     vercel
+     ```
+  
 ## Simple Express Server and MongoDB Install 
 - install the npm packages "express", "cors", "dotenv", "jsonwebtoken" and "mongodb" in one command
 ```shell
