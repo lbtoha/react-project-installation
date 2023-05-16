@@ -7,7 +7,7 @@ By using the following comment anyone can create a simple react project.
 ```shell
 npm create vite@latest name-of-your-project -- --template react
 ```
-- Install react router dom:
+### Install react router dom:
 ```shell
 npm install react-router-dom localforage match-sorter sort-by
 ```
