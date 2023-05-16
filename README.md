@@ -1,4 +1,4 @@
-# Simple React Project Installation and MongoDB server create using express
+# Simple React Project Installation ⚛️ and MongoDB server create using express
 
 By using the following comment anyone can create a simple react project.
 
